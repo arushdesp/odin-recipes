@@ -1,5 +1,9 @@
 body {
-    background-color: #f9f9f9;
+    background-image: url('images/sea.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     color: #222;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
     margin: 0;
@@ -7,8 +11,8 @@ body {
 }
 
 header {
-    background: #fffbe7;
-    border-bottom: 2px solid #e2c275;
+    background: #e8e1bb;
+    border-bottom: 2px solid #4181cb;
     padding: 1rem 0 0.5rem 0;
     text-align: center;
 }
@@ -37,7 +41,7 @@ header h1 {
 }
 
 .nav a:hover {
-    color: #222;
+    color: #e4dcdc;
     text-decoration: underline;
 }
 
@@ -109,7 +113,7 @@ footer {
 }
 
 * {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
    
     color: black;
     align-self: start;
@@ -142,7 +146,7 @@ h3,
 h4,
 h5{
     text-align: center;
-    color: olive;
+    color: rgb(194, 194, 80);
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
     margin: 30px;
